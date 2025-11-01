@@ -1,11 +1,1 @@
-print("Loop Instant Proximity Prompts - loaded successfully!")
-print("Made by RoKanchik_YT & buildermack")
-
-while true do
-wait(0)
-for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
- if v.ClassName == "ProximityPrompt" then
-  v.HoldDuration = 0
- end
-end
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/UNIVERSAL/refs/heads/main/Loop-Instant-Proximity-Prompts"))()
